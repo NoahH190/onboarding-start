@@ -9,12 +9,13 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This module implements a PWM peripheral. It takes input signals and generates PWM outputs based on register settings.
 
 ## How to test
 
-Explain how to use your project
+Run the provided testbench (`tb.v`) using a simulator like Icarus Verilog or cocotb. Check the output signals for correct PWM behavior.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+No external hardware is required for simulation. For hardware testing, connect the output pins to an oscilloscope or logic analyzer.
+
